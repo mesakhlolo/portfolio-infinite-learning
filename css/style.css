@@ -55,16 +55,15 @@ body {
 /* Konten Utama */
 .content-section {
   margin-bottom: 40px;
-  text-align: center;
 }
 
 .content-section h2 {
+  text-align: center;
   font-size: 2em;
   margin-bottom: 20px;
 }
 
 .content-section p {
-  text-align: left;
   margin-bottom: 15px;
 }
 

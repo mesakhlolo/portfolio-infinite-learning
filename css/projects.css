@@ -1,0 +1,26 @@
+.project {
+  border-radius: 8px; /* Rounded corners */
+}
+
+.project img {
+  padding: 0.5em;
+  border: 1px solid #222;
+  max-width: 100%; /* Responsive image */
+  height: auto; /* Maintain aspect ratio */
+  border-radius: 4px; /* Slightly rounded corners for images */
+  margin-bottom: 10px; /* Space below the image */
+}
+
+.project a {
+  display: inline-block; /* Make links block elements */
+  background-color: #a82121; /* Button color */
+  color: #fff; /* Text color for links */
+  padding: 10px 15px; /* Padding for the button */
+  border-radius: 4px; /* Rounded corners for the button */
+  text-decoration: none; /* Remove underline */
+  transition: background-color 0.3s ease; /* Transition for hover effect */
+}
+
+.project a:hover {
+  background-color: #9c1a1a;
+}

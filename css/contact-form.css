@@ -31,6 +31,7 @@
 }
 
 #contact-form button {
+  font-family: inherit;
   background-color: #a82121; /* Button color */
   color: white;
   border: none;

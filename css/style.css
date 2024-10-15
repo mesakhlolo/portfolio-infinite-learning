@@ -67,6 +67,35 @@ body {
   margin-bottom: 15px;
 }
 
+.content-section h3 {
+  font-size: 1.4em;
+  text-align: center;
+  position: relative; /* Positioning for the lines */
+  margin: 1em 0;
+}
+
+.content-section h3::before,
+.content-section h3::after {
+  content: ""; /* Empty content for the pseudo-elements */
+  position: absolute; /* Position the lines */
+  top: 50%; /* Center the lines vertically with respect to the h3 */
+  width: 30%; /* Width of the lines */
+  height: 1px; /* Thickness of the lines */
+  background-color: #ccc; /* Color of the lines */
+}
+.content-section h3::before {
+  left: 0; /* Position line to the left */
+  margin-right: 10px; /* Space between the line and text */
+}
+.content-section h3::after {
+  right: 0; /* Position line to the right */
+  margin-left: 10px; /* Space between the line and text */
+}
+
+.content-section ul {
+  padding: 0 2em;
+}
+
 /* Footer */
 .main-footer {
   border-top: 1px solid #ccc;

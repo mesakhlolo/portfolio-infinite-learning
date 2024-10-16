@@ -35,12 +35,21 @@
             the footer. I hope we can connect and collaborate in the future. I
             look forward to hearing from you! ☝️🤓
           </p>
+          <!-- contact.html -->
           <form id="contact-form">
             <input type="text" name="name" placeholder="Name" required />
             <input type="email" name="email" placeholder="Email" required />
             <textarea name="message" placeholder="Message" required></textarea>
             <button type="submit">Submit</button>
           </form>
+
+          <!-- modal pop up -->
+          <div id="modal" class="modal">
+            <div class="modal-content">
+              <span class="close">&times;</span>
+              <p>Terima kasih telah menghubungi kami!</p>
+            </div>
+          </div>
         </section>
       </main>
 
@@ -71,5 +80,7 @@
         </div>
       </footer>
     </div>
+
+    <script src="js/contact-form.js"></script>
   </body>
 </html>

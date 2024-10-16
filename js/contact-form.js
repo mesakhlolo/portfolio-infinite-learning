@@ -16,7 +16,7 @@ form.addEventListener("submit", (e) => {
   }
 
   // tampilkan modal pop up
-  modal.style.display = "block";
+  modal.style.display = "flex";
 });
 
 // tutup modal pop up

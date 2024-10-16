@@ -26,3 +26,13 @@ closeBtn.addEventListener("click", () => {
   // kosongkan form
   form.reset();
 });
+
+// Tutup modal pop up ketika klik di luar modal content
+window.addEventListener("click", (e) => {
+  if (e.target === modal) {
+    modal.style.display = "none";
+
+    // Kosongkan form
+    form.reset();
+  }
+});

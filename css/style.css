@@ -23,7 +23,7 @@ body {
 /* Header dan Navigasi */
 .main-header {
   text-align: center;
-  margin-bottom: 40px;
+  margin-bottom: 2em;
 }
 
 .site-title {
@@ -61,6 +61,22 @@ body {
   text-align: center;
   font-size: 2em;
   margin-bottom: 20px;
+}
+
+.intro-container {
+  display: flex;
+  flex-direction: column; /* Susunan vertikal */
+  align-items: center; /* Pusatkan elemen secara horizontal */
+  gap: 8px; /* Jarak antara gambar dan teks */
+}
+
+.profile-image {
+  width: 140px; /* Sesuaikan ukuran */
+  height: 140px; /* Sesuaikan ukuran */
+  border-radius: 50%; /* Membuat gambar berbentuk lingkaran */
+  object-fit: cover;
+  border: 1px solid #222;
+  padding: 2px;
 }
 
 .content-section p {

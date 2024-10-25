@@ -24,3 +24,16 @@
 .project a:hover {
   background-color: #9c1a1a;
 }
+
+@media (max-width: 600px) {
+  .content-section h3::before,
+  .content-section h3::after {
+    display: none; /* Menyembunyikan garis di layar kecil */
+  }
+
+  .content-section h3 {
+    margin: 1em 0 0.5em 0;
+    border-top: 1px solid #ccc;
+    padding: 0.5em;
+  }
+}

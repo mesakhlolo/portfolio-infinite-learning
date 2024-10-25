@@ -2,6 +2,12 @@
 
 This project is an assignment from Infinite Learning, where I built a simple portfolio website using HTML, CSS, and JavaScript. You can view the live version of the website [here](https://mesakhlolo.github.io/portfolio-infinite-learning/).
 
+## Philosophy
+
+"Good design is as little design as possible."
+
+In building this portfolio, I embraced simplicity, clarity, and minimalism. This approach not only streamlines the development process but also delivers a seamless and impactful experience for users. By minimizing unnecessary elements and focusing on essentials, the content can truly stand out—clean, straightforward, and effective. CSS skill issue 🤓
+
 ## Pages
 
 1. **Home (index.html)**: Introduction and overview.
@@ -15,4 +21,4 @@ This project is an assignment from Infinite Learning, where I built a simple por
    ```bash
    git clone https://github.com/mesakhlolo/portfolio-infinite-learning.git
    ```
-2. Open the index.html file in your browser to view the website locally.
+2. Open the `index.html` file in your browser to view the website locally.

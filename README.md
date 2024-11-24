@@ -6,7 +6,7 @@ This project is an assignment from Infinite Learning, where I built a simple por
 
 "Good design is as little design as possible."
 
-In building this portfolio, I embraced simplicity, clarity, and minimalism. This approach not only streamlines the development process but also delivers a seamless and impactful experience for users. By minimizing unnecessary elements and focusing on essentials, the content can truly stand out and clean, straightforward, and effective. CSS skill issue 🤓
+In building this portfolio, I embraced simplicity, clarity, and minimalism. This approach not only streamlines the development process but also delivers a seamless and impactful experience for users. By minimizing unnecessary elements and focusing on essentials, the content can truly stand out, straightforward, and effective. CSS skill issue 🤓
 
 ## Pages
 
